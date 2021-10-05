@@ -7,6 +7,8 @@
 
 extension (s: String)
   def smile: String = s + " :)"
+  def sad: String = s + " :<"
 
 @main def run2() =
   println("Hello".smile)
+  println("Hello".sad)
