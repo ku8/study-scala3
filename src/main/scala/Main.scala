@@ -1,5 +1,7 @@
 /*
   コマンドラインから呼び出す新たな方法が@mainアノテーション
+  
+  mainメソッドではインスタンスの生成ができないっぽい
 */
 @main def hello: Unit =
   println("Hello world!")
