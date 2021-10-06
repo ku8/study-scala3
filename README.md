@@ -26,7 +26,7 @@ https://docs.scala-lang.org/scala3/reference/overview.html
 変わってないものもあるかもしれないがScala2のimplicitの機能を書き記す
 
 - enrich my library → extension
-- implicit conversion(暗黙的な型変換) →
+- implicit conversion(暗黙的な型変換) → given Conversionを使う
 - implicit parameter
   - オブジェクトを渡す時の
   - 型クラス
